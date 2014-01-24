@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*- 
+# Author: luxuan@github.com
+
 from urllib.request import urlopen
 import json
 import time
