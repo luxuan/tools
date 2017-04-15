@@ -1,0 +1,21 @@
+# main.py
+git clone git://github.com/webpy/webpy.git
+ln -s `pwd`/webpy/web/ .
+
+git clone git://github.com/kennethreitz/requests.git
+ln -s `pwd`/requests/requests/ .
+
+
+
+----------------------------------------------------
+# wxchat.py
+git clone https://github.com/littlecodersh/ItChat.git
+ln -s `pwd`/ItChat/itchat/ .
+
+git clone https://github.com/mnooner256/pyqrcode
+ln -s `pwd`/pyqrcode/pyqrcode/ .
+
+git clone https://github.com/drj11/pypng
+ln -s `pwd`/pypng/pypng/ .
+
+# TODO https://www.v2ex.com/t/343685
