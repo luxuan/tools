@@ -54,7 +54,8 @@ class Handle(object):
                 if recMsg.MsgType == 'text' or recMsg.MsgType == 'voice':
                     try:
                         content = tuling.get_response(recMsg.Content)
-                        #print 'reply: %s' % content
+                        #print '%s -> %s' % (recMsg.Content, content)
+                        #sys.stdout.flush()
                         replyMsg = reply.TextMsg(toUser, fromUser, content)
                         return replyMsg.send()
                     except Exception, e:
